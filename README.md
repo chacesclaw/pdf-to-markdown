@@ -1,16 +1,18 @@
 <div align="center">
 
-# 📄 PDF Layout Recognizer
+# 📄 PDF to Markdown（PDF 转 Markdown）复杂排版识别工具
 
-### 把版式复杂的 PDF，老老实实地变成一份能读、能核对、不丢内容的 Markdown
+### 专治多栏、图文混排、复杂图表这类「一般工具转出来就乱」的 PDF，老老实实变成能读、能核对、不丢内容的 Markdown
 
-[![Version](https://img.shields.io/badge/version-1.11.1-blue.svg)](./CHANGELOG.md)
+[![Version](https://img.shields.io/badge/version-1.11.2-blue.svg)](./CHANGELOG.md)
 [![License: MIT](https://img.shields.io/badge/license-MIT-green.svg)](./LICENSE)
 [![Python](https://img.shields.io/badge/python-3.9%2B-yellow.svg)](#快速开始)
 [![Claude Code Skill](https://img.shields.io/badge/Claude%20Code-Skill-orange.svg)](#作为-claude-code--workbuddy-skill-使用)
 
-一份 [Claude Code](https://claude.com/claude-code) / WorkBuddy Skill + 一套 PyMuPDF 抽取脚本，
-专治学生论文、竞赛作品、项目报告这类**版式比标准学术期刊杂乱得多**的 PDF。
+一个专门解决 **PDF 转 Markdown（PDF to Markdown）** 里最难啃部分（复杂排版）的
+[Claude Code](https://claude.com/claude-code) / WorkBuddy Skill，配一套 PyMuPDF 抽取脚本。
+专治学生论文、竞赛作品、项目报告这类**版式比标准学术期刊杂乱得多**的 PDF：多栏、图文混排、
+各种图表都能处理，不是只会转规规矩矩的单栏文档。
 
 </div>
 
@@ -340,7 +342,7 @@ python scripts/verify-columns.py 你的文件.pdf
 
 ### 作为 Claude Code / WorkBuddy Skill 使用
 
-把整个仓库放进 `~/.claude/skills/pdf-layout-recognizer/`（或 WorkBuddy 对应的 skills 目录），Claude Code 会自动读取 `SKILL.md` 里的触发词（「学生论文」「多栏 PDF」「论文解析」「答卷/作品 PDF 提取」等）识别场景并调用。不需要额外配置。
+把整个仓库放进 `~/.claude/skills/pdf-to-markdown/`（或 WorkBuddy 对应的 skills 目录），Claude Code 会自动读取 `SKILL.md` 里的触发词（「学生论文」「多栏 PDF」「论文解析」「答卷/作品 PDF 提取」等）识别场景并调用。不需要额外配置。
 
 ---
 

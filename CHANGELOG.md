@@ -2,6 +2,13 @@
 
 版本号遵循 [Semantic Versioning](https://semver.org/lang/zh-CN/)：破坏性改动升主版本号，新场景/新能力升次版本号，bug 修复和文案补充升修订号。
 
+## [1.11.2] — 260925
+
+### Changed
+- **GitHub SEO**：仓库更名 `pdf-layout-recognizer` → `pdf-to-markdown`（旧地址自动 301 跳转），让仓库名直接命中"PDF to Markdown"这个核心搜索词。
+- 仓库描述改成以「PDF 转 Markdown / PDF to Markdown」开头，补充 20 个 GitHub Topics 标签（`pdf-to-markdown`、`pdf2markdown`、`markdown`、`pdf-parser`、`ocr`、`multi-column`、`claude-code` 等），提升 GitHub 站内搜索和 Google/百度收录命中率。
+- README 标题和开篇段落显式加入「PDF to Markdown」「PDF 转 Markdown」关键词，原先只是语义上相关、没有把这个精确短语写出来。
+
 ## [1.11.1] — 260925
 
 ### Changed
